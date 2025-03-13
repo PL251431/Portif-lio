@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f4f4f9;
+            color: #333;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #e63946;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .about, .projects, .events, .education, .contact {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #e63946;
+            margin-bottom: 10px;
+        }
+
+        .project, .event, .course {
+            margin-bottom: 15px;
+        }
+
+        .project h3, .event h3, .course h3 {
+            margin-bottom: 5px;
+        }
+
+        .project a {
+            text-decoration: none;
+            color: #e63946;
+        }
+
+        .profile-image {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #e63946;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            background: #e63946;
+            color: #fff;
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Portfólio</h1>
+        <p style="margin-top: 10px; font-size: 1.2rem;">Pedro Lucas de Sousa Oliveira</p>
+        <nav>
+            <a href="#about">Sobre Mim</a>
+            <a href="#projects">Projetos</a>
+            <a href="#events">Eventos</a>
+            <a href="#education">Educação</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Sobre Mim</h2>
+            <img src="imagens/PL.jpg" alt="Minha Foto" class="profile-image">
+            <p>Olá! Eu sou um estudante apaixonado pela área da tecnologia,além disso sou um grande aspirante a área de Hardware de computadores assim como também da eletrônica.</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Meus Projetos</h2>
+            <div class="project">
+                <h3>Portfólio</h3>
+                <p>Um site profissional desenvolvido para exibir informações detalhadas sobre o currículo de uma pessoa, incluindo experiências profissionais, trabalhos realizados, formações acadêmicas, graduações e participações em eventos relevantes. A plataforma oferece uma apresentação visualmente atraente e organizada. <a href="#">Ver Projeto</a></p>
+            </div>
+            <div class="project">
+                <h3>NeoBoard</h3>
+                <p>Uma aplicação web desenvolvida em grupo para o monitoramento de empresas de vendas, que possuem diversos vendedores e produtos. A plataforma permite o cadastro de vendedores e produtos, exibindo os dados de cada um de forma organizada. Além disso, a aplicação gera gráficos de desempenho de vendas, proporcionando uma visão clara e intuitiva do desempenho individual e geral, facilitando a análise e a tomada de decisões estratégicas. <a href="#">Ver Projeto</a></p>
+            </div>
+            <div class="project">
+                <h3>NeoWeather</h3>
+                <p>Um aplicativo móvel desenvolvido para exibir as condições climáticas atuais e a previsão do tempo para os dias seguintes em qualquer cidade do mundo. A aplicação faz uso de uma API de previsão do tempo para obter dados precisos e em tempo real. O usuário pode inserir o nome de qualquer cidade e receber informações, como temperatura condições gerais do clima, proporcionando uma experiência intuitiva e útil para planejamentos futuros.<a href="#">Ver Projeto</a></p>
+            </div>
+        </section>
+
+        <section id="events" class="events">
+            <h2>Eventos</h2>
+            <div class="event">
+                <h3>Maratona de Programação 2024</h3>
+                <p>Participei desse evento desafiador que testava as habilidades dos grupos com questões complexas de lógica matemática e computacional. Junto da minha equipe, utilizamos linguagens de programação e o VS Code para desenvolver soluções. A experiência foi enriquecedora, aprimorando nossas habilidades de resolução de problemas, trabalho em equipe e pensamento crítico, além de reforçar nossa paixão pela tecnologia.</p>
+            </div>
+            <div class="event">
+                <h3>Olimpíada Brasileira de Astronomia e Astronaútica (OBA) 2018,2019 e 2021</h3>
+                <p>Olimpíada que tive a oportunidade de testar meus conhecimentos sobre a área de Astronomia e Astronaútica e onde tive o prazer de ganhar uma medalha em cada uma das 3 vezes em que participei.</p>
+            </div>
+            <div class="event">
+                <h3>Olimpíada Brasileira de Química Júnior (OBQJr) 2018</h3>
+                <p>Olimpíada que tive a oportunidade de testar meus conhecimentos sobre a área da Química e onde tive o prazer de receber uma medalha de bronze em Fortaleza-CE</p>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <h2>Educação</h2>
+            <div class="course">
+                <h3>Graduação: Ciência da Computação</h3>
+                <p>Universidade Estadual do Piauí - Conclusão em 2026.</p>
+            </div>
+            <div class="course">
+                <h3>Curso Complementar: Desenvolvimento Web</h3>
+                <p>Instituição ABC - 100 horas de conteúdo sobre tecnologias modernas de web.</p>
+            </div>
+            <div class="course">
+                <h3>Curso Complementar: UX/UI Design</h3>
+                <p>Plataforma Online DEF - Curso focado em usabilidade e design.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo através do e-mail: <a href="mailto:seuemail@exemplo.com">pedrolucasdesousaoliveira@aluno.uespi.br</a></p>
+            <p>Ou me encontre nas redes sociais:</p>
+            <ul style="list-style: none; display: flex; gap: 10px; justify-content: center; padding: 0;">
+                <li>
+                    <a href="https://www.linkedin.com/in/pedro-lucas-de-sousa-oliveira-720886333/" target="_blank" style="text-decoration: none; color: inherit;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#e63946" viewBox="0 0 24 24">
+                            <path d="M22.23 0H1.77A1.77 1.77 0 000 1.77v20.46A1.77 1.77 0 001.77 24h20.46A1.77 1.77 0 0024 22.23V1.77A1.77 1.77 0 0022.23 0zm-13.4 20.45H5.34V9h3.49zm-1.74-13c-1.1 0-2-.89-2-2s.9-2 2-2a2 2 0 012 2c0 1.1-.89 2-2 2zm13.64 13h-3.49v-5.57c0-1.33-.02-3.05-1.85-3.05-1.86 0-2.14 1.45-2.14 2.95v5.68h-3.49V9h3.35v1.56h.05c.47-.9 1.62-1.85 3.34-1.85 3.57 0 4.23 2.35 4.23 5.42v6.32z" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/PL251431" target="_blank" style="text-decoration: none; color: inherit;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#e63946" viewBox="0 0 24 24">
+                            <path d="M12 .5a11.5 11.5 0 00-3.64 22.4c.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.14.68-3.8-1.51-3.8-1.51-.53-1.34-1.3-1.7-1.3-1.7-1.07-.73.08-.72.08-.72 1.18.08 1.8 1.2 1.8 1.2 1.05 1.79 2.75 1.28 3.43.98.1-.76.41-1.28.75-1.57-2.51-.28-5.16-1.26-5.16-5.63 0-1.24.44-2.26 1.15-3.05-.12-.28-.5-1.42.1-2.96 0 0 .94-.3 3.07 1.16a10.67 10.67 0 015.6 0c2.13-1.45 3.07-1.16 3.07-1.16.6 1.54.22 2.68.11 2.96.72.79 1.15 1.81 1.15 3.05 0 4.39-2.65 5.34-5.18 5.61.42.36.8 1.08.8 2.18 0 1.57-.01 2.84-.01 3.23 0 .31.2.67.8.55A11.5 11.5 0 0012 .5z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pedro Lucas por <a href="#">Pedro Lucas</a></p>
+    </footer>
+</body>
+</html>
+
